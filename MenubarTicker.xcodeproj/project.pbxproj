@@ -140,6 +140,12 @@
 			attributes = {
 				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					4CC719DC157C1FD7008976AD = {
+						DevelopmentTeam = 7BC4LV582K;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4CC719D7157C1FD7008976AD /* Build configuration list for PBXProject "MenubarTicker" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,11 +285,15 @@
 		4CC71A10157C1FD7008976AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7BC4LV582K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MenubarTicker/MenubarTicker-Prefix.pch";
 				INFOPLIST_FILE = "MenubarTicker/MenubarTicker-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arevit.MenubarTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -291,11 +301,15 @@
 		4CC71A11157C1FD7008976AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7BC4LV582K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MenubarTicker/MenubarTicker-Prefix.pch";
 				INFOPLIST_FILE = "MenubarTicker/MenubarTicker-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arevit.MenubarTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
